@@ -1,0 +1,10 @@
+# Entorno virtual y caché de Python
+.venv/
+__pycache__/
+*.pyc
+
+# Editores y sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
