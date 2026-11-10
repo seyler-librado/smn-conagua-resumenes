@@ -4,6 +4,10 @@ Descarga automática de los resúmenes mensuales de **lluvia** y **temperatura**
 
 Cada archivo es un CSV con una fila por estación climatológica (longitud, latitud, estado, clave, nombre y valor del mes).
 
+Son los mismos archivos que ofrece la página [Resúmenes Mensuales de Temperaturas y Lluvia](https://smn.conagua.gob.mx/es/climatologia/temperaturas-y-lluvias/resumenes-mensuales-de-temperaturas-y-lluvias) del SMN, pero sin tener que descargarlos uno por uno:
+
+![Página de Resúmenes Mensuales de Temperaturas y Lluvia del SMN](img/pagina-smn-resumenes.png)
+
 ## Datos incluidos
 
 El repositorio ya trae los CSV descargados en [`Data/`](Data/), organizados en una carpeta por año, de **enero de 2013 a octubre de 2026** (166 meses × 4 variables = 664 archivos), así que puedes usarlos directamente sin correr el script.
